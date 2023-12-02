@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armonia Eco</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="bnavcontainer">
+            <a href="#" class="name">Armonia Eco</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="#Sobre_Nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#NuestroObjetivo">Nuestro Objetivo</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#contact">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="inicio">
+            <div class="cInicio">
+                <div class="boxB col1">
+                    <img class="imageBIO" src="imagenes/biosdiversidad.jpg" alt="imagen-biodiversidad" width="800"><br><br><br>
+                </div>
+                <div class="boxB col2">
+                    <h1>La biodiversidad es una maravilla que debemos cuidar</h1>
+                    <p>En Armonía Ecco, te invitamos a explorar la asombrosa diversidad de la vida en la Tierra, únete al cambio. Juntos, podemos preservar nuestro planeta</p>
+                    <div class="download">
+                        <a href="https://play.google.com/store/games?hl=es_PE&gl=US&pli=1" target="_blank" class="download"><img src="imagenes/googleplay.png" alt="descarga_playstore" width="150" height="40"></a>
+                        <a href="https://www.apple.com/la/app-store/" target="_blank" class="download"><img src="imagenes/appstore.png" alt="descarga_appstore" width="150" height="40"></a>
+                    </div>
+                </div>
+              </div>
+        </section>
+        <section id="Sobre_Nosotros" class="sobrenosotros">
+            <div class ="container csobrenosotros">
+                <h1>Sobre Nosotros</h1>
+                <p> Armonía Ecco es una plataforma única que ofrece a las personas la oportunidad de participar activamente en la preservación de la biodiversidad. A través de nuestra aplicación y sitio web, permitimos a los usuarios compartir sus observaciones, imágenes y datos sobre la flora y fauna en peligro. Juntos, estamos construyendo un puente entre la tecnología y la naturaleza, promoviendo un mundo en el que la biodiversidad florezca.</p>
+                <img src="imagenes/quienessomos.jpg" alt="imagen_de_quienes_somos" width="500">
+            </div>
+        </section>
+        <section  id="NuestroObjetivo" class="nuestrosobjetivos">
+            <div class="textNObj">
+                <h1>Nuestros Objetivos</h1>
+                <h3>Para cumplir con nuestro objetivo de cambio,implementamos las siguientes dimensiones de trabajo:</h3>
+            </div>
+            <div class="containerS">
+                <div class="boxS">
+                    <img src="imagenes/sos-diversidad.jpg" alt="imagen_SOSDiversidad" width="400">
+                    <h3>Ecco Alert Diversidad</h3>
+                    <p>Difundir mediante el uso de realidad virtual la flora y fauna de ecosistemas que se encuentran en peligro.</p>
+                </div>
+                <div class="boxS">
+                    <img src="imagenes/businesses.webp" alt="imagen_Businesses" width="400">
+                    <h3>Businesses Friend</h3>
+                    <p>Buscar el apoyo de las empresas directamente relacionadas (agrícolas, mineras, etc.)  para que sean clave en la protección de la biodiversidad.</p>
+                </div>
+                <div class="boxS">
+                    <img src="imagenes/research.jpg" alt="imagen_Research" width="400">
+                    <h3>Ecco Research</h3>
+                    <p>Contar con investigaciones para generar estrategias para preservación de la biodiversidad acorde al objetivo N°15 de la Agenda ONU 2030.</p>
+                </div>
+        </section>
+        <section id="Servicios" class="container cServicios">
+            <h1>Servicios</h1>
+            <h3>Como ONG que busca revolucionar el cambio ambiental, para conservar nuestra biodiversidad, brindamos los siguientes servicios:</h3>
+                <li>Apartado</li>
+                <p>Un espacio para que el usuario debidamente registrado pueda colocar las fotos, documentación, grabaciones que muestren el “antes” y “después” de la flora y fauna de una región determinada que ha perdido biodiversidad debido a la agricultura intensiva, la sobreexplotación de los entornos naturales, la aparición de especies invasoras y el cambio climático etc.</p>
+                <img src="imagenes/apartado-web.jpg" alt="imagen_ApartadoWeb" width="400"><br><br>
+                <li>AlertBioApp</li>
+                <p>Una aplicación móvil que permita registrar en una base de datos, las fotografías en tiempo real que proporcionan los propios usuarios sobre flora y fauna que se encuentren en peligro de extinción inminente. Es importante que se pueda registrar en google maps las coordenadas de la zona en que la flora o fauna se encuentran en peligro inminente, de ahí el nombre de AlertBioApp.</p>
+                <img src="imagenes/sos-bio-app.jpg" alt="imagen_SOSBioApp" width="400"><br><br>
+                <li>FriendlyBioApp</li>
+                <p>Una aplicación móvil dirigida a los empresarios y CEO a fin de que se comprometan, realicen donaciones y apliquen voluntariamente métodos de operación de sus empresas que preserven la biodiversidad de la región.</p>
+                <img src="imagenes/donaciones.jpg" alt="imagenFriendlyBioApp" width="400">
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form class="contact_form" onsubmit="return mostrarMensaje()" id="contact_form">
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="submit" value="Enviar">
+              </form>
+          </section>         
+    </main>
+    <footer class="footer">
+        <h2>¡Descargala Ahora!</h2>
+        <a href="https://play.google.com/store/games?hl=es_PE&gl=US&pli=1" target="_blank" class="download"><img src="imagenes/googleplay.png" alt="imagen-playstore-logo" width="150" height="40"></a>
+        <a href="https://www.apple.com/la/app-store/" target="_blank" class="download"><img src="imagenes/appstore.png" alt="imagen-appstore-logo" width="150" height="40"></a>
+        <br><br><div class="redes">
+            <a href="https://www.instagram.com/" target="_blank" class="rs"><img src="imagenes/instagram.png" alt="Instagram" width="34" height="34"></a>
+            <a href="https://www.youtube.com/" target="_blank" class="rs"><img src="imagenes/youtube.png" alt="Youtube" width="34" height="34"></a>
+            <a href="https://pe.linkedin.com/" target="_blank" class="rs"><img src="imagenes/linkedin.png" alt="Linkedin" width="34" height="34"></a>
+            <a href="https://www.facebook.com/" target="_blank" class="rs"><img src="imagenes/facebook.png" alt="Facebook" width="34" height="34"> </a>
+        </div>
+        <p>&copy; 2023 Armonía Ecco. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
